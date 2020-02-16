@@ -13,6 +13,6 @@ let a = prompt("Введите обязательную статью расхо�
     a2 = prompt("Введите обязательную статью расходов в этом месяце", ""),
     a3 = prompt("Во сколько обойдется?", "");
 
-appData.expenses[a] = a1;
-appData.expenses[a2] = a3;
-alert(appData.budget / 30);
+appData.expenses[a]=a1
+appData.expenses[a2]=a3
+alert(appData.budget / 30)
